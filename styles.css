@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(to bottom, #20232a, #232c34); Background gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+}
+
+.wrapper-box {
+    background: #0f338e93; /* Box background color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow */
+    /* height: 500px; */
+    width: 400px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #007BFF; /* Heading color */
+    font-weight: bold;
+}
+
+.form-group {
+    margin: 20px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    color: #f0e6e6; /* Label text color */
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #007BFF; /* Input border color */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333; /* Input text color */
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: #0056b3; /* Button hover color */
+}
+
+.signup-option {
+    margin-top: 10px;
+    color: #f0e6e6; /* Signup text color */
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button.color-btn {
+    margin-left: -265px;
+    height: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 35px;
+}

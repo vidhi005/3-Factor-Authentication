@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify Your Account</title>
+    <link rel="stylesheet" type="text/css" href="generator_styles.css">
+</head>
+<body>
+    <div class="verification">
+        <h1>OTP Authentication</h1>
+        <div class="centered-button">
+            <button id="sendOtpBtn" onclick="sendOTP()">Send OTP</button>
+        </div>
+        <div class="otp-box">
+            <input type="text" id="otpInput" placeholder="Enter OTP">
+            <button id="verifyBtn" onclick="validateOTP()">Verify OTP</button>
+        </div>
+        <p id="message"></p>
+        <!-- <button class="verify-btn" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder;">VERIFY</button> -->
+        <p>Didn't receive a code? <a href="otp.html" style="text-decoration: none; font-weight: bold; border: none; color: antiquewhite;">RESEND</a>.</p>
+    </div>
+    <script src="otp_client_random.js"></script>
+</body>
+</html>

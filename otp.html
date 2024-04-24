@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify Your Account</title>
+    <style>
+        body {
+            /* background: linear-gradient(to right, blue, purple); */
+            background: url('https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .verification {
+            /* background: white; */
+            background: #0f338e93;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .code {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            height: 50px;
+        }
+        .code input {
+            width: 30px;
+            border-radius: 10px;
+            font-size: larger;
+            text-align: center;
+        }
+        .verify-btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="verification">
+        <h2>Verify Your Account</h2>
+        <p>We emailed you the six-digit code.<br> Enter the code below to confirm your email address.</p>
+        <div class="code">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+        </div>
+        <button class="verify-btn" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder;">VERIFY</button>
+        <p>Didn't receive a code? <a href="#" style="text-decoration: none; font-weight: bold; border: none; color: antiquewhite;">RESEND</a>.</p>
+    </div>
+
+    <script src="otp_client.js"></script>
+</body>
+</html>
